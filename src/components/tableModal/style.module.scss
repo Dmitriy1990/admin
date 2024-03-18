@@ -1,0 +1,112 @@
+.btn {
+  min-width: 75px;
+  height: 32px;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  &:hover {
+    color: #fff !important;
+  }
+  &.cancel {
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+    color: rgba(0, 0, 0, 0.85);
+    &:hover {
+      color: rgba(0, 0, 0, 0.85) !important;
+    }
+  }
+  &.reject {
+    background: #ff4d4f;
+  }
+  &.confirm {
+    background: #1890ff;
+    border: 1px solid #1890ff;
+  }
+}
+
+.header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.85);
+  box-shadow: inset 0px -1px 0px #f0f0f0;
+  padding: 16px 24px;
+  padding: 16px 24px;
+}
+
+.tabs{
+  margin-top: 24px;
+}
+
+.modal {
+  padding: 0;
+  width: 834px !important;
+  .ant-modal-content.css-dev-only-do-not-override-1vtf12y.ant-modal
+    .ant-modal-content {
+    padding: 0 !important;
+  }
+}
+
+.content {
+  box-shadow: inset 0px -1px 0px #f0f0f0;
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  &__left {
+    margin-right: 17px;
+    flex: 1;
+  }
+  &__right {
+    width: 393px;
+    height: 427px;
+    background: #d9d9d9;
+  }
+}
+
+.carousel {
+  &__item {
+    position: relative;
+    height: 427px;
+  }
+}
+
+.field {
+  width: 256px;
+  height: 32px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+.block {
+  width: 256px;
+}
+
+.form {
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    justify-content: flex-end;
+  }
+  &__label {
+    margin-right: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.tag {
+  min-height: 22px;
+  background: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}

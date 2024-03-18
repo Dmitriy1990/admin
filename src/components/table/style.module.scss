@@ -1,0 +1,77 @@
+.action {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.td {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.table {
+  &-wrapper {
+    padding: 16px 24px;
+    background-color: #fff;
+  }
+  .th {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+  }
+}
+
+.checked {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  &__dot {
+    margin-right: 8px;
+    width: 6px;
+    height: 6px;
+    flex: none;
+    display: block;
+    border-radius: 50%;
+    &.rejected {
+      background: #f5222d;
+    }
+    &.finished {
+      background: #faad14;
+    }
+    &.started {
+      background: #52c41a;
+    }
+    &.checked {
+      background: #1890ff;
+    }
+    &.new {
+      background: #bfbfbf;
+    }
+  }
+}
+
+.group {
+  margin-bottom: 16px;
+  &__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    border: 1px solid #d9d9d9;
+    height: 32px;
+    vertical-align: middle;
+    padding: 5px 16px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.cancelBtn{
+    text-align: center;
+}
